@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+  { name = "Spectrum048k" }
+]
+name = "spectrum.azure"
+version = "0.0.1"
+description = "Python classes wrapping the Azure REST API"
+requires-python = ">=3.11"
+keywords = ["api", "azure"]
+dependencies = [ 
+    "requests",
+    "loguru",
+]
